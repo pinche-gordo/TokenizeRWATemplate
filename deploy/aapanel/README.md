@@ -3,7 +3,7 @@
 This project deploys cleanly to aaPanel as:
 
 - static frontend served by nginx
-- local Node backend for NFT upload routes on `127.0.0.1:3001`
+- local Node backend for NFT upload routes on `127.0.0.1:64006`
 - same-origin routing from `/api/*` to the backend
 
 ## Target layout
@@ -36,12 +36,13 @@ Recommended server paths:
 2. Create `.env`.
    Required:
    - `PINATA_JWT=...`
+   - `PORT=64006`
 3. Install:
    - `npm install`
-4. Run the backend with aaPanel Node Project manager or PM2 on `127.0.0.1:3001`.
+4. Run the backend with aaPanel Node Project manager or PM2 on `127.0.0.1:64006`.
    - `ALLOWED_ORIGINS=https://minting.digitaldimension.com.mx`
 5. Health check:
-   - `http://127.0.0.1:3001/health`
+   - `http://127.0.0.1:64006/health`
 
 ## nginx / aaPanel
 
@@ -77,4 +78,3 @@ If you manage the backend outside aaPanel's Node Project UI:
 - wallet connects
 - `/health` returns JSON through nginx
 - NFT upload reaches `/api/pin-image`
-

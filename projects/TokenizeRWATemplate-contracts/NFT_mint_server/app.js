@@ -4,12 +4,20 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 import express from 'express'
 import multer from 'multer'
+import path from 'path'
+import { existsSync } from 'fs'
 import { Readable } from 'stream'
+import { fileURLToPath } from 'url'
 
 // Load local .env for dev. In Vercel, env vars come from platform.
 dotenv.config()
 
 const app = express()
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+const frontendDistDir =
+  process.env.FRONTEND_DIST_DIR?.trim() || path.resolve(__dirname, '../../TokenizeRWATemplate-frontend/dist')
+const hasFrontendDist = existsSync(path.join(frontendDistDir, 'index.html'))
 
 // --- DEBUG: log every request (shows up in Vercel logs)
 app.use((req, _res, next) => {
@@ -150,6 +158,17 @@ app.post('/api/pin-image', upload.single('file'), async (req, res) => {
     return res.status(500).json({ error: msg })
   }
 })
+
+if (hasFrontendDist) {
+  app.use(express.static(frontendDistDir))
+
+  // Serve the SPA from the same Node process for aaPanel-style single-app hosting.
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api/')) return next()
+    if (req.path === '/health') return next()
+    return res.sendFile(path.join(frontendDistDir, 'index.html'))
+  })
+}
 
 // Catch-all 404 (so we KNOW Express is being hit)
 app.use((req, res) => {

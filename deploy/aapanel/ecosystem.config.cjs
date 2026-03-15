@@ -7,7 +7,7 @@ module.exports = {
       interpreter: 'node',
       env: {
         NODE_ENV: 'production',
-        PORT: 3001,
+        PORT: 64006,
         ALLOWED_ORIGINS: 'https://minting.digitaldimension.com.mx',
       },
     },
