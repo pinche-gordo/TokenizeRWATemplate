@@ -21,7 +21,7 @@ app.use((req, _res, next) => {
  * CORS
  * Optional: set ALLOWED_ORIGINS in Vercel env as comma-separated list
  * Example:
- *   ALLOWED_ORIGINS=https://tokenize-rwa-template.vercel.app,http://localhost:5173
+ *   ALLOWED_ORIGINS=https://minting.digitaldimension.com.mx,http://localhost:5173
  */
 const explicitAllowed = (process.env.ALLOWED_ORIGINS || '')
   .split(',')
@@ -36,6 +36,8 @@ function isAllowedOrigin(origin) {
   try {
     const host = new URL(origin).hostname
     return (
+      host === 'digitaldimension.com.mx' ||
+      host.endsWith('.digitaldimension.com.mx') ||
       host.endsWith('.vercel.app') ||
       host.endsWith('.app.github.dev')
     )

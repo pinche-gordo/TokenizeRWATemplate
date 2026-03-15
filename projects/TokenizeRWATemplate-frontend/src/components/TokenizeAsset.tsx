@@ -61,8 +61,13 @@ function resolveBackendBase(): string {
     return `https://${base}`
   }
 
-  // 3) Plain local fallback
-  return 'http://localhost:3001'
+  // 3) Local fallback
+  if (host === 'localhost' || host.startsWith('localhost:') || host === '127.0.0.1' || host.startsWith('127.0.0.1:')) {
+    return 'http://localhost:3001'
+  }
+
+  // 4) Deployed custom domains can use a same-origin /api reverse proxy.
+  return window.location.origin
 }
 
 /**

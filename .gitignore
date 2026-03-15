@@ -119,8 +119,11 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Environments / secrets
 .env
+.env.*
+!.env.template
+!.env.example
 .venv
 env/
 venv/
@@ -167,4 +170,3 @@ cython_debug/
 
 # NPM
 node_modules
-
