@@ -1,0 +1,8 @@
+{
+  "name": "tokenize-rwa-template-root",
+  "private": true,
+  "scripts": {
+    "build:frontend": "cd projects/TokenizeRWATemplate-frontend && npm run build",
+    "start:aapanel": "cd projects/TokenizeRWATemplate-contracts/NFT_mint_server && npm start"
+  }
+}
