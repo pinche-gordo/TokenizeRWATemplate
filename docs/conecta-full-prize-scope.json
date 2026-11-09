@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "owner": "contracts",
+  "phase": "full_prize_first_live_candidate",
+  "productionAccepted": false,
+  "invitations": "deferred",
+  "reviewedBase": "ca9ffaf27aca0d8b63ea6178d5fe123ae1fe0164",
+  "files": {
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.approval.puya.map": {
+      "sha256": "f5dacc516b5e686b775d10707849d8075dae98c35495a8acde8445f239ce2895",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.approval.teal": {
+      "sha256": "2d8f73255b1fce15b0269c4172ef84b319e3ab148b6d0ebfeb105913468cb424",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.arc32.json": {
+      "sha256": "21758345fe889058ebcd8fcc7f2f22346845d69aacbbcd41f292a3f1e148f813",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.arc56.json": {
+      "sha256": "2d7ccc91a50d449a134c40f0411f6612a00a9af93c10623acf30c5bc9ba895dd",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.clear.puya.map": {
+      "sha256": "282ddc2f0e46fd0d63c0b3f0b256e1f01fee0285e9f6b3aef036a22ee4f95536",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.clear.teal": {
+      "sha256": "5da04e5cc44da207b0e07081d2898c0bb5da61bf4c903edce242378f00e41570",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyRewardClient.ts": {
+      "sha256": "21f0dce6f5bd9ca518b120c00b0bbf0d161004a61cf366e56eca1d661b32a2b8",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.approval.puya.map": {
+      "sha256": "0de51880e4489ee17f250e18bc5a9d3747653e9bbce1300d0bf67c3afa5c7fdc",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.approval.teal": {
+      "sha256": "018b43815830e94525f118486bb92c1bc4fd34965fc104acf55a7bd8a95dd905",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.arc32.json": {
+      "sha256": "5ed153c38219ed566343926ec08ecde36d1dddb5d62c74a0721d996c8acc6205",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.arc56.json": {
+      "sha256": "c5e195572a5e516485c64bde44522f9c72d1dc4a3b109ea2e8ed43fbf028fe03",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.clear.puya.map": {
+      "sha256": "282ddc2f0e46fd0d63c0b3f0b256e1f01fee0285e9f6b3aef036a22ee4f95536",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.clear.teal": {
+      "sha256": "5da04e5cc44da207b0e07081d2898c0bb5da61bf4c903edce242378f00e41570",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrowClient.ts": {
+      "sha256": "7e37a74100512c34e899790dbcd61c6829255d3b55a77803e3fbd682c9e4d096",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/README.md": {
+      "sha256": "534b4a5886fb9d97b4b6ab5bdf611f47a6560575e68e72cd2d64cf37776d7856",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/contract.algo.ts": {
+      "sha256": "05976a5b046011297c658713fe319fba2c1de1510614da64d50dc9aaf607e110",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/contract.e2e.spec.ts": {
+      "sha256": "9684b148b3685194088971e66266852b97bb68924960f45400a4beb369be6cfb",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/README.md": {
+      "sha256": "0d828bfe1f28426b5dc01f31597e34269d0a9402849052276c2c18c0d577b1f1",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.algo.ts": {
+      "sha256": "e8ce3a8223ca813ad43230ccc04d8e734fbe902b0ae9ccf8895949eb03a57c5a",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.e2e.spec.ts": {
+      "sha256": "0753d7f447f7486a573b0f2c046b1be9301ced4689e262a5e1b832f30f59e745",
+      "mode": "100644"
+    },
+    "tools/full-prize-baseline.mjs": {
+      "sha256": "2f78a28ce1735d7d62d4d966b4e7980e64e270f29f0b2f092cb1c428f064be95",
+      "mode": "100644"
+    }
+  },
+  "protectedFiles": {
+    ".algokit.toml": {
+      "mode": "100644",
+      "blob": "6a91ef9d75c328cacea3d377dc334aea92ff7064"
+    },
+    ".algokit/.copier-answers.yml": {
+      "mode": "100644",
+      "blob": "957f23c6e7b6598ca81dda313e2c583fc20eb115"
+    },
+    ".algokit/generators/create-devcontainer/copier.yaml": {
+      "mode": "100644",
+      "blob": "e98f33484610642dac1a2cbaf2e9d2f732c3aa9b"
+    },
+    ".algokit/generators/create-devcontainer/devcontainer.json": {
+      "mode": "100644",
+      "blob": "6452c65badef8da3f7e12ca9392efdae3c50369a"
+    },
+    ".editorconfig": {
+      "mode": "100644",
+      "blob": "5e550a1500e9053d0e84cc7e4ae3a7ff47524745"
+    },
+    ".gitattributes": {
+      "mode": "100644",
+      "blob": "6313b56c57848efce05faa7aa7e901ccfc2886ea"
+    },
+    ".github/workflows/release.yaml": {
+      "mode": "100644",
+      "blob": "31a2cdcd03df2a813ba0539c0493e06a15d3dfbd"
+    },
+    ".github/workflows/tokenizerwatemplate-contracts-cd.yaml": {
+      "mode": "100644",
+      "blob": "0310c0a91dc19026a565e9ef6117d767a6f72681"
+    },
+    ".github/workflows/tokenizerwatemplate-contracts-ci.yaml": {
+      "mode": "100644",
+      "blob": "ccd7bf547d3f9cf7183ed8f4dbabfcec8cfa9c4b"
+    },
+    ".github/workflows/tokenizerwatemplate-frontend-cd.yaml": {
+      "mode": "100644",
+      "blob": "be9f74685e7805cd1a497d9198be20cb42274df3"
+    },
+    ".github/workflows/tokenizerwatemplate-frontend-ci.yaml": {
+      "mode": "100644",
+      "blob": "8fe5440faf24659e31f49868b07a1158090c5bc6"
+    },
+    ".github/workflows/validate.yaml": {
+      "mode": "100644",
+      "blob": "80ee4bb810f378258e76d385dd7d52cdcb5e95f4"
+    },
+    ".gitignore": {
+      "mode": "100644",
+      "blob": "81edc1c1181c53d7e5f52e37bb8309844e766e7e"
+    },
+    ".vscode/launch.json": {
+      "mode": "100644",
+      "blob": "1b8aa883ffdb7926382e6d757883adcf176b87a2"
+    },
+    ".vscode/settings.json": {
+      "mode": "100644",
+      "blob": "033fd10839aeb836348af8dcf9974afb41e75ccd"
+    },
+    "AGENTS.md": {
+      "mode": "100644",
+      "blob": "eed0c88ac3ad47e709757bf47eef2bc31ae9023a"
+    },
+    "README.md": {
+      "mode": "100644",
+      "blob": "10865159d7b52769cf00fa522dc756e8dc9928f2"
+    },
+    "TokenizeRWATemplate.code-workspace": {
+      "mode": "100644",
+      "blob": "e3257d4d815aac421e8b873fbcfe61ee00d2cf72"
+    },
+    "deploy/aapanel/README.md": {
+      "mode": "100644",
+      "blob": "d10693abedb6be86028ca58ff55777a7708b9a60"
+    },
+    "deploy/aapanel/ecosystem.config.cjs": {
+      "mode": "100644",
+      "blob": "90a82926141d84f8778fd42d8c289bc894d289bd"
+    },
+    "deploy/aapanel/nginx-minting.digitaldimension.com.mx.conf": {
+      "mode": "100644",
+      "blob": "cd243647ba1b53ea9c1cf6525bce3093ba071249"
+    },
+    "package.json": {
+      "mode": "100644",
+      "blob": "7052ee75152f6919424d4a7243917b5ec1781662"
+    },
+    "projects/.gitkeep": {
+      "mode": "100644",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit.toml": {
+      "mode": "100644",
+      "blob": "6af1392998888aa4ed0daa384227687977a920d8"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/.copier-answers.yml": {
+      "mode": "100644",
+      "blob": "84bc24650569285d804def547739ba7944a3e39d"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_contract/copier.yaml": {
+      "mode": "100644",
+      "blob": "82f2c4a421c4c0bee34dc86c9bcdd5b85fc72a2e"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_contract/smart_contracts/{{ contract_name }}/contract.algo.ts.j2": {
+      "mode": "100644",
+      "blob": "344c1a17d319308998d1df37fc348b8641a46d42"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_contract/smart_contracts/{{ contract_name }}/deploy-config.ts.j2": {
+      "mode": "100644",
+      "blob": "4626980f40010d5e62bf14e444f49526cfc52f2d"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_contract/smart_contracts/{{ contract_name }}/{% if include_tests %}contract.e2e.spec.ts{% endif %}.j2": {
+      "mode": "100644",
+      "blob": "146e2702079d2184f72763d36e52a27475ec7da2"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_contract/smart_contracts/{{ contract_name }}/{% if include_tests %}contract.spec.ts{% endif %}.j2": {
+      "mode": "100644",
+      "blob": "e7a7414b246d18f645f7ee5b6beb48480ed0710a"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_env_file/copier.yaml": {
+      "mode": "100644",
+      "blob": "afa2cace0c84fdec99e6f7e00de5fab0aa5af157"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_env_file/{% if is_customnet %}.env.{{custom_network_name}}{% endif %}": {
+      "mode": "100644",
+      "blob": "cfc9f21ecca684698ff9571880929bf31a3cfa3a"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_env_file/{% if is_localnet %}.env.localnet{% endif %}": {
+      "mode": "100644",
+      "blob": "fcbf442dd8da379301d43d8a281a2fce955b95d6"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_env_file/{% if is_mainnet %}.env.mainnet{% endif %}": {
+      "mode": "100644",
+      "blob": "bb9a78733c9e99a1795cd8ddc913989fa0f0420a"
+    },
+    "projects/TokenizeRWATemplate-contracts/.algokit/generators/create_env_file/{% if is_testnet %}.env.testnet{% endif %}": {
+      "mode": "100644",
+      "blob": "eeea43d7f184fb98ed20b692943f0cad76cc91f8"
+    },
+    "projects/TokenizeRWATemplate-contracts/.editorconfig": {
+      "mode": "100644",
+      "blob": "0a71b075687802bcb2164ae329517e1ec2663972"
+    },
+    "projects/TokenizeRWATemplate-contracts/.gitignore": {
+      "mode": "100644",
+      "blob": "25494bf345dfe4357a8431b1dfe79249edbcf0cf"
+    },
+    "projects/TokenizeRWATemplate-contracts/.npmrc": {
+      "mode": "100644",
+      "blob": "c42da845b4490f8793a839b302915b4e54de71b4"
+    },
+    "projects/TokenizeRWATemplate-contracts/.prettierignore": {
+      "mode": "100644",
+      "blob": "8ca71b1a1980ee207855ed811e3a738827120ff6"
+    },
+    "projects/TokenizeRWATemplate-contracts/.prettierrc.js": {
+      "mode": "100644",
+      "blob": "c484d0e147f6b00e0d119633ac3de6355d499b70"
+    },
+    "projects/TokenizeRWATemplate-contracts/.tours/getting-started-with-your-algokit-project.tour": {
+      "mode": "100644",
+      "blob": "a9ea37c513a012d6df338fff996cad8481e47cf2"
+    },
+    "projects/TokenizeRWATemplate-contracts/.vscode/extensions.json": {
+      "mode": "100644",
+      "blob": "cb7119273ec416ffeffc569612334fc49d16d145"
+    },
+    "projects/TokenizeRWATemplate-contracts/.vscode/launch.json": {
+      "mode": "100644",
+      "blob": "093ebb1d36ed9cc0f5f4a8a912f38594f2aee2f8"
+    },
+    "projects/TokenizeRWATemplate-contracts/.vscode/settings.json": {
+      "mode": "100644",
+      "blob": "b60a0a290d840f837a96d565ae2a3de24890dec5"
+    },
+    "projects/TokenizeRWATemplate-contracts/.vscode/tasks.json": {
+      "mode": "100644",
+      "blob": "55310abcf39b5c96a504153a72d08599c4654dc8"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/.env.template": {
+      "mode": "100644",
+      "blob": "44cc1af58930cc1cb9a08fac11f01eeb2fa97a5e"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/api/index.js": {
+      "mode": "100644",
+      "blob": "b6eb665a96c3dff72c0b90ee5eb0ff3b9eadce70"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/app.js": {
+      "mode": "100644",
+      "blob": "112dc2eefd04730bcb3ea0e637a6440410d211ad"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/package-lock.json": {
+      "mode": "100644",
+      "blob": "4734a43d50addbd2bbe4ee886161d388e5b97d28"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/package.json": {
+      "mode": "100644",
+      "blob": "623ad9be07d51d19339105ad95b6dff22101652b"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/server.js": {
+      "mode": "100644",
+      "blob": "e0abd29d832b65cefa4ffc9ede15fbcdbae8df37"
+    },
+    "projects/TokenizeRWATemplate-contracts/NFT_mint_server/vercel.json": {
+      "mode": "100644",
+      "blob": "a5f6a92acb993ddb0556c8e5e949535c0ba41cf3"
+    },
+    "projects/TokenizeRWATemplate-contracts/README.md": {
+      "mode": "100644",
+      "blob": "8467975f0a0c8866f5f04a3c474543f5882bb6a7"
+    },
+    "projects/TokenizeRWATemplate-contracts/eslint.config.mjs": {
+      "mode": "100644",
+      "blob": "4d2428a333577af931defad8582a6a43c524ea7d"
+    },
+    "projects/TokenizeRWATemplate-contracts/package-lock.json": {
+      "mode": "100644",
+      "blob": "3e64772bcc6d3d28e156326346ee9199de2995ad"
+    },
+    "projects/TokenizeRWATemplate-contracts/package.json": {
+      "mode": "100644",
+      "blob": "5ab70fbd1881b6ee242e7f96d2a7efdb34b5b99b"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.approval.puya.map": {
+      "mode": "100644",
+      "blob": "ac885dba68a314827e6e141c61dc770145991e7a"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.approval.teal": {
+      "mode": "100644",
+      "blob": "83100f4c40833abd7eb72bcca8d666507c86785e"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.arc32.json": {
+      "mode": "100644",
+      "blob": "be7a4a644d5f111f1eac60cc0445b270a9539848"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.arc56.json": {
+      "mode": "100644",
+      "blob": "50455a91a76bea9d179ea5f094e5983904d64298"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.clear.puya.map": {
+      "mode": "100644",
+      "blob": "bf29998bd52bcab92039c021bb8be26e51eee423"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorld.clear.teal": {
+      "mode": "100644",
+      "blob": "42f81b0f1ca6d7147a8e5f036aed726d4985e426"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/hello_world/HelloWorldClient.ts": {
+      "mode": "100644",
+      "blob": "34dfd099f91828684c8620eb3fe87093029f1695"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/hello_world/contract.algo.spec.ts": {
+      "mode": "100644",
+      "blob": "664eb7267ab71a4ade60fba94ab528218cb56842"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/hello_world/contract.algo.ts": {
+      "mode": "100644",
+      "blob": "5e2fcfe6152b97bc344b80b589795e61f5f77b2a"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/hello_world/contract.e2e.spec.ts": {
+      "mode": "100644",
+      "blob": "981099cbdc56f689e30c580a38325beda626e93a"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/hello_world/deploy-config.ts": {
+      "mode": "100644",
+      "blob": "6b9d6525809c2f8469463024902b01517bd607c3"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/index.ts": {
+      "mode": "100644",
+      "blob": "6030d0e1862b0a4d49d505e576e694276f010172"
+    },
+    "projects/TokenizeRWATemplate-contracts/tsconfig.json": {
+      "mode": "100644",
+      "blob": "d98907529423578514679585dc41783fa1bad0e2"
+    },
+    "projects/TokenizeRWATemplate-contracts/tsconfig.test.json": {
+      "mode": "100644",
+      "blob": "6cc09d9692634dfbdd383ad5a27d31f1fc2a41a8"
+    },
+    "projects/TokenizeRWATemplate-contracts/vitest.config.mts": {
+      "mode": "100644",
+      "blob": "abb2d2a786e24f5afe181118be0dce6ebe0c76d9"
+    },
+    "projects/TokenizeRWATemplate-frontend/.algokit.toml": {
+      "mode": "100644",
+      "blob": "02bb4bf6f4a688338f18d5e9c2c924ef70745779"
+    },
+    "projects/TokenizeRWATemplate-frontend/.algokit/.copier-answers.yml": {
+      "mode": "100644",
+      "blob": "dc616f393a8cb6d233f5f41c2ed2eeab21a72104"
+    },
+    "projects/TokenizeRWATemplate-frontend/.editorconfig": {
+      "mode": "100644",
+      "blob": "a83b72cdb7f93236d31fc040640c142d64962432"
+    },
+    "projects/TokenizeRWATemplate-frontend/.env.template": {
+      "mode": "100644",
+      "blob": "c54fe05fa1cd8cd9e8a57b585ae1dd5746fede14"
+    },
+    "projects/TokenizeRWATemplate-frontend/.eslintrc": {
+      "mode": "100644",
+      "blob": "868fe3786b9eb016c64bf0846610b12e9dfd67ef"
+    },
+    "projects/TokenizeRWATemplate-frontend/.gitignore": {
+      "mode": "100644",
+      "blob": "b1ce837f39294c09718b164d71445b85bd6b77de"
+    },
+    "projects/TokenizeRWATemplate-frontend/.npmrc": {
+      "mode": "100644",
+      "blob": "c42da845b4490f8793a839b302915b4e54de71b4"
+    },
+    "projects/TokenizeRWATemplate-frontend/.prettierignore": {
+      "mode": "100644",
+      "blob": "dbda6ae9c05e79cd76844a958bab2a3da71392ca"
+    },
+    "projects/TokenizeRWATemplate-frontend/.prettierrc.cjs": {
+      "mode": "100644",
+      "blob": "066b8e59e056dde07c9a2df3720d5dda8c8fd3a5"
+    },
+    "projects/TokenizeRWATemplate-frontend/.vscode/extensions.json": {
+      "mode": "100644",
+      "blob": "5c9412290030c4ae5d69005ecfc3ab9d0701b4b5"
+    },
+    "projects/TokenizeRWATemplate-frontend/.vscode/launch.json": {
+      "mode": "100644",
+      "blob": "7edaf04e41c226926938bf7dc888cc5d20a67a79"
+    },
+    "projects/TokenizeRWATemplate-frontend/.vscode/settings.json": {
+      "mode": "100644",
+      "blob": "f1d701788f23b589234084dfc9b3bf2aa135e48e"
+    },
+    "projects/TokenizeRWATemplate-frontend/.vscode/tasks.json": {
+      "mode": "100644",
+      "blob": "d611c4fcd88979d44a080f4c12f88a6aa5be3562"
+    },
+    "projects/TokenizeRWATemplate-frontend/README.md": {
+      "mode": "100644",
+      "blob": "5fcb13af0a7afd1fb9111a32fe4b653f6a0fb4c5"
+    },
+    "projects/TokenizeRWATemplate-frontend/WEB3AUTH_INTEGRATION.md": {
+      "mode": "100644",
+      "blob": "b73127baddbda198f2967a41704a78e604c21c4e"
+    },
+    "projects/TokenizeRWATemplate-frontend/WEB3AUTH_QUICK_REFERENCE.md": {
+      "mode": "100644",
+      "blob": "c0e59e9054a41a80fc2b764b0d1a5fdee6b57862"
+    },
+    "projects/TokenizeRWATemplate-frontend/index.html": {
+      "mode": "100644",
+      "blob": "0f9651473341c7c796b37ad1982baf8d5a0c4fcd"
+    },
+    "projects/TokenizeRWATemplate-frontend/jest.config.ts": {
+      "mode": "100644",
+      "blob": "28a8c3d41705501950b6c08b496357202fa9feeb"
+    },
+    "projects/TokenizeRWATemplate-frontend/package-lock.json": {
+      "mode": "100644",
+      "blob": "2b13a7f9170db782300fc863ab47d907b69b5c55"
+    },
+    "projects/TokenizeRWATemplate-frontend/package.json": {
+      "mode": "100644",
+      "blob": "a08d7c92a9f3820e172c220e484563e36d052260"
+    },
+    "projects/TokenizeRWATemplate-frontend/playwright.config.ts": {
+      "mode": "100644",
+      "blob": "d7cbca6f32ec0ff325de492c4dd7c8e0b9885b8f"
+    },
+    "projects/TokenizeRWATemplate-frontend/postcss.config.cjs": {
+      "mode": "100644",
+      "blob": "33ad091d26d8a9dc95ebdf616e217d985ec215b8"
+    },
+    "projects/TokenizeRWATemplate-frontend/public/index.html": {
+      "mode": "100644",
+      "blob": "0d3a3a502f670a3664a22a53cc6f44dc41552a3b"
+    },
+    "projects/TokenizeRWATemplate-frontend/public/robots.txt": {
+      "mode": "100644",
+      "blob": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/App.tsx": {
+      "mode": "100644",
+      "blob": "9ad04003c6e39a544fa15e7c850ba58a83352552"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/Home.tsx": {
+      "mode": "100644",
+      "blob": "76bcd17e71f7c383fa3be27a65959ee9a9d5ae6a"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/Layout.tsx": {
+      "mode": "100644",
+      "blob": "884db6f21557ce43231630bc27b7948548b79a18"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/TokenizePage.tsx": {
+      "mode": "100644",
+      "blob": "ee6276c8c6e3fe0164c90ef168f797fbc7c68375"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/assets/logo.svg": {
+      "mode": "100644",
+      "blob": "71694760334b71b61b9b4501297ef3391cd6f240"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/Account.tsx": {
+      "mode": "100644",
+      "blob": "d7d7e64a22d80e938f8138135fa4f4e12f1b3969"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/AppCalls.tsx": {
+      "mode": "100644",
+      "blob": "987c30d5f2096c63c8e3c812701b22b25fa59c09"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/ConnectWallet.tsx": {
+      "mode": "100644",
+      "blob": "453018f371d412bd9b811629a7774daf74d130f1"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/ErrorBoundary.tsx": {
+      "mode": "100644",
+      "blob": "435bf61dda87b4c723cd68eedb9f3d9ab69cf644"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/ThemeToggle.tsx": {
+      "mode": "100644",
+      "blob": "439c8bcf885ce743af6e41ca84b5ab19321e5a05"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/TokenizeAsset.tsx": {
+      "mode": "100644",
+      "blob": "2462e5d828a9976c48104ed86e318185bb00efc4"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/components/Transact.tsx": {
+      "mode": "100644",
+      "blob": "2ba3e969c5275afc7821d4ca684ef5f42d353916"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/contracts/HelloWorld.ts": {
+      "mode": "100644",
+      "blob": "5b0f375e11f3cf3c16d33f49d7e085daa485f4a8"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/contracts/README.md": {
+      "mode": "100644",
+      "blob": "04629b1a81f13c20015ce3a9b3226fa8709451e1"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/interfaces/network.ts": {
+      "mode": "100644",
+      "blob": "a458edc12198db3314faa92e9a05a012f94729e2"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/main.tsx": {
+      "mode": "100644",
+      "blob": "7023db3f7078647926d1bc296a43c97740c75b8c"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/styles/main.css": {
+      "mode": "100644",
+      "blob": "b5c61c956711f981a41e95f7fcf0038436cfbb22"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/utils/ellipseAddress.spec.tsx": {
+      "mode": "100644",
+      "blob": "2cbff100188b75a3d85655554aa59d83f2dfba7d"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/utils/ellipseAddress.ts": {
+      "mode": "100644",
+      "blob": "db97e481dbb4596933abef2c2463f18b609b6622"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/utils/network/getAlgoClientConfigs.ts": {
+      "mode": "100644",
+      "blob": "b5121f8e66a4e6ea631750400f85b48e64d518c4"
+    },
+    "projects/TokenizeRWATemplate-frontend/src/vite-env.d.ts": {
+      "mode": "100644",
+      "blob": "67c2d3051d80d6f3af440f2454d9338e6dbfba97"
+    },
+    "projects/TokenizeRWATemplate-frontend/tailwind.config.cjs": {
+      "mode": "100644",
+      "blob": "24cb1a8f1072945398c5f623eb628e8067e17ab7"
+    },
+    "projects/TokenizeRWATemplate-frontend/tests/example.spec.ts": {
+      "mode": "100644",
+      "blob": "a62aae4f54153f49da96150f574c645c900256cf"
+    },
+    "projects/TokenizeRWATemplate-frontend/tsconfig.json": {
+      "mode": "100644",
+      "blob": "5cde02a29f715d25f1e6ffdb3695fc9b484a8bbd"
+    },
+    "projects/TokenizeRWATemplate-frontend/tsconfig.node.json": {
+      "mode": "100644",
+      "blob": "9d31e2aed93c876bc048cf2f863cb2a847c901e8"
+    },
+    "projects/TokenizeRWATemplate-frontend/vercel.json": {
+      "mode": "100644",
+      "blob": "0f32683a980f1a03be6c50ec86c476b762c756e6"
+    },
+    "projects/TokenizeRWATemplate-frontend/vite.config.ts": {
+      "mode": "100644",
+      "blob": "93d89381ad151e7298f7bce80fa13ea96a48d1dd"
+    },
+    "setup.sh": {
+      "mode": "100644",
+      "blob": "35fd56e2b0e8f186de19bd794b8f121fe1682f1c"
+    }
+  },
+  "introducedPaths": [
+    "docs/conecta-full-prize-scope.json",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.approval.puya.map",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.approval.teal",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.arc32.json",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.arc56.json",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.clear.puya.map",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyReward.clear.teal",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_daily_reward/ConectaDailyRewardClient.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.approval.puya.map",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.approval.teal",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.arc32.json",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.arc56.json",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.clear.puya.map",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrow.clear.teal",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/artifacts/conecta_escrow/ConectaEscrowClient.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/README.md",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/contract.algo.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_daily_reward/contract.e2e.spec.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/README.md",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.algo.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.e2e.spec.ts",
+    "tools/full-prize-baseline.mjs"
+  ],
+  "projectionPaths": [],
+  "projections": {}
+}
