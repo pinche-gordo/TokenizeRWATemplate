@@ -86,6 +86,18 @@
       "sha256": "0753d7f447f7486a573b0f2c046b1be9301ced4689e262a5e1b832f30f59e745",
       "mode": "100644"
     },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/README.md": {
+      "sha256": "80ba9d2ca747ff98991746d5a0220bfbe64d7b2c17ad4028ed5c53e1383e5b6e",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/deploy.e2e.spec.mjs": {
+      "sha256": "45cb756e6f1d25fecae20462e9de0d7511e35df88042d00eaa2d322c860b8adc",
+      "mode": "100644"
+    },
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/deploy.mjs": {
+      "sha256": "df614911f8583a5fce32e277f8162385f548663338b309e637da411f2e584d83",
+      "mode": "100644"
+    },
     "tools/full-prize-baseline.mjs": {
       "sha256": "2f78a28ce1735d7d62d4d966b4e7980e64e270f29f0b2f092cb1c428f064be95",
       "mode": "100644"
@@ -607,6 +619,9 @@
     "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/README.md",
     "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.algo.ts",
     "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_escrow/contract.e2e.spec.ts",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/README.md",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/deploy.e2e.spec.mjs",
+    "projects/TokenizeRWATemplate-contracts/smart_contracts/conecta_release/deploy.mjs",
     "tools/full-prize-baseline.mjs"
   ],
   "projectionPaths": [],
